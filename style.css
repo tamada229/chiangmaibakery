@@ -276,3 +276,4 @@ footer .brand-name{color:var(--flour)}
   .item .add{padding:8px 8px 8px 12px;font-size:13.5px;gap:6px}.item .add .dot{width:22px;height:22px}
   .msg input{font-size:16px;padding:8px}
 }
+.walink{display:block;text-align:center;font-weight:600;color:#1F8F4E;padding:6px}

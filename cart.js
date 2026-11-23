@@ -7,14 +7,14 @@ const T = {
     pickup: 'รับที่ร้าน', delivery: 'ส่งในเชียงใหม่', addr: 'ที่อยู่จัดส่ง', note: 'หมายเหตุ (ไม่บังคับ)', send: 'ส่งออเดอร์ทาง WhatsApp',
     need: 'กรุณากรอก', noNum: 'ยังไม่ได้ใส่เบอร์ WhatsApp ของร้าน: WhatsApp จะให้คุณเลือกแชทเอง', each: 'ต่อชิ้น',
     hi: 'สวัสดีค่ะ/ครับ ขอสั่งขนมตามรายการนี้', order: 'ออเดอร์', sum: 'ราคารวม', tbc: 'รอร้านยืนยันราคา', from: 'ชื่อ', when: 'วันที่รับ', way: 'วิธีรับ', thanks: 'ขอบคุณค่ะ/ครับ',
-    sent: 'เปิด WhatsApp แล้ว กดส่งข้อความในแชทเพื่อยืนยันออเดอร์', clear: 'ล้างตะกร้า' },
+    sent: 'เปิด WhatsApp แล้ว กดส่งข้อความในแชทเพื่อยืนยันออเดอร์', clear: 'ล้างตะกร้า', openWa: 'ถ้า WhatsApp ไม่เปิดเอง แตะที่นี่' },
   en: { add: 'Add to cart', added: 'Added to cart', type: 'Type', msg: 'Message on the cake (optional)', msgPh: 'e.g. Happy birthday, Mali',
     cart: 'Cart', empty: 'Your cart is empty. Pick something from the menu.', items: 'items', remove: 'Remove', close: 'Close',
     total: 'Total', confirm: 'The shop will confirm the total on WhatsApp', name: 'Your name', date: 'Date you need it', how: 'How will you get it?',
     pickup: 'Pick up at the shop', delivery: 'Delivery in Chiang Mai', addr: 'Delivery address', note: 'Note (optional)', send: 'Send order on WhatsApp',
     need: 'Please fill in', noNum: 'The shop\'s WhatsApp number isn\'t set yet, so WhatsApp will ask you to choose a chat', each: 'each',
     hi: 'Hello! I would like to order:', order: 'Order', sum: 'Total', tbc: 'Price to be confirmed by the shop', from: 'Name', when: 'Date', way: 'Collection', thanks: 'Thank you!',
-    sent: 'WhatsApp is open. Press send in the chat to confirm your order.', clear: 'Clear cart' }
+    sent: 'WhatsApp is open. Press send in the chat to confirm your order.', clear: 'Clear cart', openWa: 'If WhatsApp didn\'t open, tap here' }
 };
 const tt = k => T[lang][k];
 const ART = {
@@ -120,6 +120,7 @@ fd.addEventListener('submit', e => {
   $('#formErr').textContent = '';
   const url = `https://wa.me/${SHOP.whatsapp.replace(/\D/g, '')}?text=${encodeURIComponent(buildMessage(f))}`;
   window.__lastWa = url;
+  const wl = $('#waLink'); wl.href = url; wl.textContent = tt('openWa'); wl.hidden = false;
   window.open(url, '_blank', 'noopener');
   toast(tt('sent'));
 });
