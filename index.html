@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>[ชื่อร้าน] · เบเกอรี่เชียงใหม่</title>
+<meta name="description" content="เบเกอรี่จากเชียงใหม่ คุกกี้ ขนมปัง และกล่องของขวัญ สั่งผ่าน LINE">
+<link rel="preload" href="fonts/anuphan-thai-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/noto-serif-thai-thai-700-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main" data-i18n="skip">ข้ามไปเนื้อหา</a>
+
+<header class="nav" id="nav">
+  <a class="brand" href="#top" aria-label="หน้าแรก">
+    <span class="brand-mark" aria-hidden="true">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#3B2416" stroke-width="1.8" stroke-linecap="round"><path d="M12 21V9"/><path d="M12 9c0-3 2-5 5-5 0 3-2 5-5 5zM12 9c0-3-2-5-5-5 0 3 2 5 5 5zM12 14c0-3 2-5 5-5 0 3-2 5-5 5zM12 14c0-3-2-5-5-5 0 3 2 5 5 5z"/></svg>
+    </span>
+    <span><span class="brand-name" data-i18n="brand">[ชื่อร้าน]</span><span class="brand-sub">Chiang Mai Bakehouse</span></span>
+  </a>
+  <ul id="navlinks">
+    <li><a href="#menu" data-i18n="nav.menu">เมนู</a></li>
+    <li><a href="#boxes" data-i18n="nav.boxes">กล่องของขวัญ</a></li>
+    <li><a href="#chiangmai" data-i18n="nav.cm">เชียงใหม่</a></li>
+    <li><a href="#reviews" data-i18n="nav.reviews">รีวิว</a></li>
+    <li><a href="#order" data-i18n="nav.contact">ติดต่อ</a></li>
+  </ul>
+  <div class="lang" role="group" aria-label="Language / ภาษา">
+    <button type="button" data-lang="th" aria-pressed="true">ไทย</button>
+    <button type="button" data-lang="en" aria-pressed="false">EN</button>
+  </div>
+  <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="navlinks" aria-label="เมนู">
+    <svg width="22" height="22" viewBox="0 0 24 24" stroke="#3B2416" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+  </button>
+  <a class="btn" href="#menu"><span class="label" data-i18n="cta.order">สั่งขนม</span><span class="dot" aria-hidden="true">→</span></a>
+</header>
+
+<main id="main">
+<!-- ============ HERO: scroll to bake ============ -->
+<section class="bake" id="top" aria-label="อบขนมทีละขั้น">
+  <div class="stage">
+    <svg class="scene" viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+      <defs>
+        <radialGradient id="bowlIn" cx="45%" cy="40%" r="65%"><stop offset="0" stop-color="#F3ECE2"/><stop offset="1" stop-color="#DCCFBE"/></radialGradient>
+        <radialGradient id="doughG" cx="40%" cy="35%" r="70%"><stop offset="0" stop-color="#FBE7BE"/><stop offset="1" stop-color="#E2BF85"/></radialGradient>
+        <radialGradient id="gold" cx="40%" cy="35%" r="70%"><stop offset="0" stop-color="#E9B465"/><stop offset="1" stop-color="#B9772F"/></radialGradient>
+        <radialGradient id="raw" cx="40%" cy="35%" r="70%"><stop offset="0" stop-color="#FBEBCB"/><stop offset="1" stop-color="#E9CD98"/></radialGradient>
+        <filter id="sh" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="10" dy="16" stdDeviation="14" flood-color="#3B1E08" flood-opacity=".35"/></filter>
+        <filter id="shs" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="5" dy="8" stdDeviation="6" flood-color="#3B1E08" flood-opacity=".35"/></filter>
+        <g id="frangi"><g fill="#FFF8EC"><ellipse cx="0" cy="-15" rx="9" ry="16"/><ellipse cx="0" cy="-15" rx="9" ry="16" transform="rotate(72)"/><ellipse cx="0" cy="-15" rx="9" ry="16" transform="rotate(144)"/><ellipse cx="0" cy="-15" rx="9" ry="16" transform="rotate(216)"/><ellipse cx="0" cy="-15" rx="9" ry="16" transform="rotate(288)"/></g><circle r="7" fill="#F2C14E"/></g>
+        <g id="croiss"><g ><ellipse cx="-71.9" cy="36.2" rx="22" ry="19" transform="rotate(-64 -71.9 36.2)" fill="url(#raw)" stroke="#C98B45" stroke-width="2.5"/><ellipse cx="71.9" cy="36.2" rx="22" ry="19" transform="rotate(64 71.9 36.2)" fill="url(#raw)" stroke="#C98B45" stroke-width="2.5"/><ellipse cx="-43.6" cy="-3.9" rx="32" ry="27" transform="rotate(-33 -43.6 -3.9)" fill="url(#raw)" stroke="#C98B45" stroke-width="2.5"/><ellipse cx="43.6" cy="-3.9" rx="32" ry="27" transform="rotate(33 43.6 -3.9)" fill="url(#raw)" stroke="#C98B45" stroke-width="2.5"/><ellipse cx="0.0" cy="-20.0" rx="40" ry="34" transform="rotate(0 0.0 -20.0)" fill="url(#raw)" stroke="#C98B45" stroke-width="2.5"/></g><g class="bk"><ellipse cx="-71.9" cy="36.2" rx="22" ry="19" transform="rotate(-64 -71.9 36.2)" fill="url(#gold)" stroke="#C98B45" stroke-width="2.5"/><ellipse cx="71.9" cy="36.2" rx="22" ry="19" transform="rotate(64 71.9 36.2)" fill="url(#gold)" stroke="#C98B45" stroke-width="2.5"/><ellipse cx="-43.6" cy="-3.9" rx="32" ry="27" transform="rotate(-33 -43.6 -3.9)" fill="url(#gold)" stroke="#C98B45" stroke-width="2.5"/><ellipse cx="43.6" cy="-3.9" rx="32" ry="27" transform="rotate(33 43.6 -3.9)" fill="url(#gold)" stroke="#C98B45" stroke-width="2.5"/><ellipse cx="0.0" cy="-20.0" rx="40" ry="34" transform="rotate(0 0.0 -20.0)" fill="url(#gold)" stroke="#C98B45" stroke-width="2.5"/></g></g>
+        <g id="cookie"><circle r="54" fill="url(#raw)"/><circle r="54" fill="url(#gold)" class="bk"/><g fill="#5A3417"><circle cx="-18" cy="-12" r="7"/><circle cx="16" cy="-20" r="6"/><circle cx="20" cy="14" r="7"/><circle cx="-12" cy="20" r="6"/><circle cx="2" cy="0" r="5"/></g></g>
+      </defs>
+
+      <!-- banana leaf, corner -->
+      <g filter="url(#shs)"><path d="M-60 -40 C 160 40 300 160 360 330 C 220 300 40 220 -60 120 Z" fill="#3E7A35"/><path d="M-60 -40 C 120 80 250 190 360 330" stroke="#9CC47A" stroke-width="5" fill="none"/>
+        <g stroke="#5E9A4B" stroke-width="2.5" fill="none"><path d="M40 20 L70 160"/><path d="M110 60 L130 210"/><path d="M180 110 L190 250"/><path d="M250 170 L250 290"/></g></g>
+
+      <!-- flour bowl -->
+      <g filter="url(#sh)"><circle cx="330" cy="250" r="125" fill="#E9DFD1"/><circle cx="330" cy="250" r="102" fill="#CDB89A"/></g>
+      <g id="mvFlour"><ellipse cx="330" cy="262" rx="82" ry="70" fill="#D9CBB5" opacity=".6"/><ellipse cx="330" cy="255" rx="82" ry="70" fill="#F6EEDF"/><ellipse cx="315" cy="238" rx="40" ry="26" fill="#FFFDF8"/></g>
+      <!-- sugar dish -->
+      <g filter="url(#sh)"><circle cx="175" cy="585" r="98" fill="#D8CFC2"/><circle cx="175" cy="585" r="80" fill="#EEE8DF"/></g>
+      <g id="mvSugar"><circle cx="175" cy="588" r="62" fill="#FBFAF7"/><g fill="#E7E2DA"><circle cx="160" cy="570" r="3"/><circle cx="190" cy="600" r="3"/><circle cx="170" cy="610" r="2.5"/><circle cx="200" cy="572" r="2.5"/></g></g>
+      <!-- butter plate -->
+      <g filter="url(#sh)"><ellipse cx="260" cy="860" rx="130" ry="118" fill="#E2D3BC"/><ellipse cx="260" cy="860" rx="108" ry="96" fill="#F1E6D4"/></g>
+      <g id="mvButter" filter="url(#shs)"><rect x="200" y="815" width="122" height="84" rx="12" fill="#F7DC7C"/><rect x="200" y="815" width="122" height="22" rx="10" fill="#FBE9A6"/></g>
+      <!-- egg -->
+      <g id="mvEgg" filter="url(#shs)"><ellipse cx="575" cy="890" rx="52" ry="66" fill="#D99B62" transform="rotate(-12 575 890)"/><ellipse cx="560" cy="866" rx="14" ry="20" fill="#EBB987" transform="rotate(-12 560 866)"/></g>
+      <!-- pandan -->
+      <g id="mvPandan" filter="url(#shs)"><g fill="#3F8A35"><path d="M1090 120 q 60 40 160 150 q -20 6 -32 -2 q -70 -80 -138 -136z"/><path d="M1110 100 q 90 20 210 110 q -18 10 -30 4 q -90 -60 -186 -100z"/><path d="M1080 150 q 40 60 110 190 q -20 2 -30 -10 q -50 -90 -86 -164z"/></g><path d="M1080 120 l 30 -20 l 10 40z" fill="#2F6D29"/></g>
+      <!-- coffee on bamboo coaster -->
+      <g filter="url(#sh)"><circle cx="1480" cy="200" r="105" fill="#C9A26A"/><circle cx="1480" cy="200" r="105" fill="none" stroke="#A9834D" stroke-width="3" stroke-dasharray="8 6"/><circle cx="1480" cy="200" r="70" fill="#F7F1E8"/><circle cx="1480" cy="200" r="52" fill="#4A2A16"/><circle cx="1472" cy="192" r="18" fill="#7A4B2A" opacity=".6"/><path d="M1550 190 q 40 10 0 30" stroke="#F7F1E8" stroke-width="12" fill="none"/></g>
+      <!-- kraft bag with Chiang Mai stamp -->
+      <g filter="url(#sh)" transform="rotate(-8 1420 860)"><rect x="1300" y="740" width="250" height="250" rx="10" fill="#C79A66"/><rect x="1300" y="740" width="250" height="38" fill="#B58753"/>
+        <circle cx="1425" cy="870" r="64" fill="none" stroke="#6B3E1E" stroke-width="3"/><circle cx="1425" cy="870" r="54" fill="none" stroke="#6B3E1E" stroke-width="1.5"/>
+        <text x="1425" y="866" text-anchor="middle" font-family="Noto Serif Thai,serif" font-weight="700" font-size="22" fill="#6B3E1E">เชียงใหม่</text>
+        <text x="1425" y="892" text-anchor="middle" font-family="Outfit,sans-serif" font-weight="600" font-size="12" letter-spacing="3" fill="#6B3E1E">CHIANG MAI</text></g>
+      <use href="#frangi" x="1220" y="935"/><use href="#frangi" x="1268" y="965" transform="rotate(30 1268 965)"/><use href="#frangi" x="470" y="110"/>
+      <!-- lotus cutter -->
+      <path d="M1040 880 c -30 -60 -10 -100 20 -110 c 30 10 50 50 20 110 c 50 -40 90 -30 100 0 c -10 30 -60 45 -120 20 c 20 50 0 90 -30 95 c -30 -10 -45 -50 -10 -105 c -60 20 -100 5 -105 -25 c 10 -30 60 -35 125 15z" fill="none" stroke="#9AA3A8" stroke-width="8" stroke-linejoin="round" filter="url(#shs)"/>
+
+      <!-- main bowl -->
+      <g id="bowl">
+        <g filter="url(#sh)"><circle cx="800" cy="510" r="300" fill="#F1EAE0"/><circle cx="800" cy="510" r="300" fill="none" stroke="#FFFFFF" stroke-width="6" opacity=".7"/></g>
+        <circle cx="800" cy="510" r="252" fill="url(#bowlIn)"/>
+        <g id="inFlour" opacity="0"><ellipse cx="800" cy="530" rx="170" ry="150" fill="#D9CBB5" opacity=".55"/><ellipse cx="800" cy="520" rx="170" ry="150" fill="#F6EEDF"/><ellipse cx="770" cy="490" rx="80" ry="60" fill="#FFFDF8"/></g>
+        <g id="inSugar" opacity="0"><ellipse cx="860" cy="560" rx="80" ry="58" fill="#F4F0EA"/><g fill="#E1DBD2"><circle cx="840" cy="550" r="3"/><circle cx="880" cy="570" r="3"/><circle cx="860" cy="540" r="2.5"/></g></g>
+        <g id="inButter" opacity="0" filter="url(#shs)"><rect x="700" y="420" width="62" height="54" rx="9" fill="#F7DC7C"/><rect x="780" y="470" width="58" height="50" rx="9" fill="#F7DC7C" transform="rotate(14 809 495)"/><rect x="720" y="520" width="56" height="48" rx="9" fill="#F5D46A" transform="rotate(-10 748 544)"/></g>
+        <g id="inEgg" opacity="0"><ellipse cx="880" cy="450" rx="62" ry="54" fill="#FFF7E8" opacity=".9"/><circle cx="884" cy="452" r="30" fill="#F2A72E"/><circle cx="876" cy="444" r="9" fill="#F8C766"/></g>
+        <g id="inPandan" opacity="0"><path d="M690 600 q 60 -40 120 0 t 120 0" stroke="#5DA04A" stroke-width="16" fill="none" stroke-linecap="round" opacity=".85"/></g>
+        <g id="dough" opacity="0" filter="url(#sh)"><circle cx="800" cy="510" r="165" fill="url(#doughG)"/><path d="M720 450 q 40 -30 90 -10 M760 560 q 50 20 100 -20" stroke="#D9AF6B" stroke-width="5" fill="none" stroke-linecap="round"/><g fill="#5A3417" opacity=".75" class="chips"><circle cx="760" cy="500" r="7"/><circle cx="840" cy="470" r="6"/><circle cx="850" cy="560" r="7"/><circle cx="730" cy="570" r="6"/></g></g>
+        <g id="inBatter" opacity="0"><circle cx="800" cy="510" r="236" fill="#F5DE9E"/><circle cx="800" cy="510" r="236" fill="none" stroke="#E7C97F" stroke-width="6"/><path d="M690 480q110-70 220 0q-110 80-220 0" stroke="#EBCB7C" stroke-width="7" fill="none"/><ellipse cx="760" cy="440" rx="70" ry="26" fill="#FBEDC2" opacity=".7"/></g>
+        <g id="inSlab" opacity="0" filter="url(#shs)"><rect x="725" y="440" width="150" height="135" rx="12" fill="#F7DC7C"/><rect x="725" y="440" width="150" height="28" rx="10" fill="#FBE9A6"/></g>
+        <g id="inFolds" opacity="0" filter="url(#sh)"><rect x="640" y="395" width="320" height="230" rx="26" fill="url(#doughG)"/><g stroke="#F3D27E" stroke-width="5"><path d="M664 448h272M664 502h272M664 556h272"/></g><g stroke="#E0BC7A" stroke-width="3"><path d="M664 475h272M664 529h272M664 583h272"/></g></g>
+      </g>
+
+      <!-- product: cookies -->
+      <g id="prodCookie" opacity="0">
+        <g filter="url(#sh)"><rect x="520" y="250" width="560" height="500" rx="26" fill="#9EA4A8"/><rect x="540" y="270" width="520" height="460" rx="18" fill="#B9BEC1"/></g>
+        <rect x="558" y="288" width="484" height="424" rx="10" fill="#F6EEDF"/>
+        <use href="#cookie" x="640" y="380"/><use href="#cookie" x="800" y="380"/><use href="#cookie" x="960" y="380"/>
+        <use href="#cookie" x="640" y="560"/><use href="#cookie" x="800" y="560"/><use href="#cookie" x="960" y="560"/>
+      </g>
+      <!-- product: croissants -->
+      <g id="prodCroissant" opacity="0">
+        <g filter="url(#sh)"><rect x="520" y="250" width="560" height="500" rx="26" fill="#9EA4A8"/><rect x="540" y="270" width="520" height="460" rx="18" fill="#B9BEC1"/></g>
+        <rect x="558" y="288" width="484" height="424" rx="10" fill="#F6EEDF"/>
+        <use href="#croiss" x="670" y="400" transform="rotate(-10 670 400)"/><use href="#croiss" x="930" y="400" transform="rotate(10 930 400)"/><use href="#croiss" x="670" y="620" transform="rotate(8 670 620)"/><use href="#croiss" x="930" y="620" transform="rotate(-8 930 620)"/>
+        <g id="crShine" opacity="0" fill="#FFFFFF"><ellipse cx="662" cy="358" rx="24" ry="8" opacity=".5" transform="rotate(-10 670 400)"/><ellipse cx="922" cy="358" rx="24" ry="8" opacity=".5" transform="rotate(10 930 400)"/><ellipse cx="662" cy="578" rx="24" ry="8" opacity=".5" transform="rotate(8 670 620)"/><ellipse cx="922" cy="578" rx="24" ry="8" opacity=".5" transform="rotate(-8 930 620)"/></g>
+      </g>
+      <!-- product: birthday cake -->
+      <g id="prodCake" opacity="0">
+        <g filter="url(#sh)"><circle cx="800" cy="510" r="290" fill="#EDE5DA"/><circle cx="800" cy="510" r="290" fill="none" stroke="#FFFFFF" stroke-width="6" opacity=".7"/></g>
+        <circle cx="800" cy="510" r="215" fill="#F5DE9E"/><circle cx="800" cy="510" r="215" fill="url(#gold)" class="bk"/>
+        <circle id="cakeTin" cx="800" cy="510" r="224" fill="none" stroke="#8D949A" stroke-width="18"/>
+        <g id="cakeFrost" opacity="0"><circle cx="800" cy="510" r="218" fill="#FFF7F2" filter="url(#shs)"/><g id="rosettes"></g>
+          <g fill="#D8435B"><circle cx="720" cy="430" r="9"/><circle cx="880" cy="430" r="9"/><circle cx="720" cy="600" r="9"/><circle cx="880" cy="600" r="9"/></g>
+          <text x="800" y="512" text-anchor="middle" font-family="Noto Serif Thai,serif" font-weight="700" font-size="38" fill="#C2456A">สุขสันต์วันเกิด</text>
+          <text x="800" y="550" text-anchor="middle" font-family="Outfit,sans-serif" font-weight="600" font-size="20" letter-spacing="3" fill="#C2456A">HAPPY BIRTHDAY</text></g>
+        <g id="cakeCandles" opacity="0"></g>
+      </g>
+      <g id="steam" opacity="0" stroke="#FFFFFF" stroke-width="8" fill="none" stroke-linecap="round"><path d="M700 230 q -20 -40 0 -80 t 0 -80"/><path d="M800 220 q -20 -40 0 -80 t 0 -80"/><path d="M900 230 q -20 -40 0 -80 t 0 -80"/></g>
+    </svg>
+
+    <div class="intro" id="intro">
+      <p class="eyebrow" data-i18n="hero.eyebrow">เบเกอรี่ · เชียงใหม่</p>
+      <h1 data-i18n="hero.title">อบด้วยมือ ที่เชียงใหม่</h1>
+      <p data-i18n="hero.lead">เลือกขนมด้านบน แล้วเลื่อนลงเพื่ออบไปด้วยกันทีละขั้น</p>
+      <p class="pin"><svg width="16" height="16" viewBox="0 0 24 24" fill="#4F7A3A" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg><span data-i18n="hero.pin">เชียงใหม่ ประเทศไทย</span></p>
+    </div>
+
+    <div class="picker" role="radiogroup" aria-labelledby="pickL">
+      <span id="pickL" data-i18n="pick.label">อบอะไรดี?</span>
+      <button type="button" role="radio" aria-checked="true" data-recipe="cookie" data-i18n="pick.cookie">คุกกี้</button>
+      <button type="button" role="radio" aria-checked="false" data-recipe="croissant" data-i18n="pick.croissant">ครัวซองต์</button>
+      <button type="button" role="radio" aria-checked="false" data-recipe="cake" data-i18n="pick.cake">เค้กวันเกิด</button>
+    </div>
+
+    <div class="card" id="card" aria-live="polite">
+      <div class="ico" id="cardIco" aria-hidden="true"></div>
+      <div><p class="k" id="cardK"></p><h2 id="cardT"></h2><p id="cardD"></p></div>
+    </div>
+
+    <div class="final" id="final">
+      <p class="eyebrow" id="finK">ออกจากเตาแล้ว</p>
+      <h2 id="finT">คุกกี้อบสด ๆ ที่เชียงใหม่</h2>
+      <div class="row"><a class="btn" href="#menu"><span data-i18n="final.menu">ดูเมนู</span><span class="dot" aria-hidden="true">→</span></a><a class="btn ghost" href="#order" data-i18n="cta.order">สั่งขนม</a></div>
+      <ol class="steps-static" id="stepsStatic" style="text-align:left;margin-top:16px;padding-left:22px"></ol>
+    </div>
+
+    <div class="progress" aria-hidden="true"><span><span data-i18n="step">ขั้นที่</span> <span class="n" id="stepN">00</span> / <span id="stepTot">09</span></span><span class="bar"><i id="bar"></i></span><span data-i18n="scroll">เลื่อนเพื่ออบ</span></div>
+  </div>
+</section>
+
+<div class="lanna" aria-hidden="true"></div>
+
+<!-- ============ CHIANG MAI ============ -->
+<section class="sec cm" id="chiangmai">
+  <div class="wrap cm-grid">
+    <div>
+      <p class="eyebrow" data-i18n="cm.eyebrow">จากเชียงใหม่</p>
+      <h2 data-i18n="cm.title">เบเกอรี่ของคนเชียงใหม่</h2>
+      <p data-i18n="cm.body">เราอบขนมที่เชียงใหม่ เมืองล้านนาทางภาคเหนือของไทย [เล่าเรื่องร้านของคุณที่นี่: เริ่มต้นเมื่อไร ใครเป็นคนอบ และอะไรทำให้ร้านเป็นแบบเชียงใหม่]</p>
+      <div class="facts">
+        <div class="fact"><b data-i18n="cm.f1b">เชียงใหม่</b><span data-i18n="cm.f1s">ภาคเหนือ ประเทศไทย</span></div>
+        <div class="fact"><b data-i18n="cm.f2b">[ย่าน]</b><span data-i18n="cm.f2s">ที่ตั้งร้าน</span></div>
+        <div class="fact"><b data-i18n="cm.f3b">[เวลาเปิด]</b><span data-i18n="cm.f3s">วันและเวลาเปิดร้าน</span></div>
+      </div>
+    </div>
+    <figure class="doi">
+      <svg viewBox="0 0 560 420" role="img" aria-labelledby="doiT">
+        <title id="doiT">ภาพวาดดอยสุเทพและเมืองเชียงใหม่</title>
+        <rect width="560" height="420" rx="22" fill="#F7EFE3"/>
+        <circle cx="430" cy="110" r="46" fill="#F2C14E"/>
+        <path d="M0 300 C 90 200 160 150 250 160 C 330 170 360 120 420 150 C 480 180 520 220 560 240 L560 420 L0 420Z" fill="#7FA36A"/>
+        <path d="M0 330 C 120 270 220 250 330 270 C 420 286 480 300 560 290 L560 420 L0 420Z" fill="#4F7A3A"/>
+        <g transform="translate(250 112)"><path d="M0 48 L0 34 Q 12 22 12 8 L14 -18 L16 8 Q 16 22 28 34 L28 48 Z" fill="#E2A33B"/><rect x="-6" y="46" width="40" height="8" fill="#C98A2E"/></g>
+        <g fill="#FBF6EE" stroke="#3B2416" stroke-width="2"><rect x="70" y="340" width="70" height="50"/><path d="M62 342 L105 312 L148 342Z"/><rect x="190" y="350" width="90" height="40"/><path d="M180 352 L235 322 L290 352Z"/><rect x="340" y="344" width="64" height="46"/><path d="M332 346 L372 318 L412 346Z"/><rect x="450" y="352" width="70" height="38"/></g>
+        <path d="M0 400 h560" stroke="#3B2416" stroke-width="2"/>
+      </svg>
+      <figcaption style="padding:10px 8px 4px;font-size:14px;color:var(--cocoa-2)" data-i18n="cm.cap">ดอยสุเทพมองจากตัวเมืองเชียงใหม่ (ภาพวาด)</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ MENU + CART ============ -->
+<section class="sec" id="menu">
+  <div class="wrap">
+    <div class="head"><div><p class="eyebrow" data-i18n="menu.eyebrow">เมนู</p><h2 data-i18n="menu.title">ขนมจากเตาของเรา</h2></div><p data-i18n="menu.lead">เลือกขนม เลือกแบบ แล้วใส่ตะกร้า ส่งออเดอร์ทาง WhatsApp ได้ในครั้งเดียว</p></div>
+    <div class="tabs" id="catTabs" role="tablist" aria-label="หมวดเมนู"></div>
+    <p class="cat-desc" id="catDesc"></p>
+    <div class="grid catalog" id="catalog" role="tabpanel"></div>
+    <p class="sample-note" data-i18n="menu.sample">ชื่อรสชาติในเมนูนี้เป็นตัวอย่าง รอข้อมูลจริงจากร้าน</p>
+  </div>
+</section>
+
+<!-- ============ GIFT BOXES ============ -->
+<section class="sec boxes" id="boxes">
+  <div class="wrap">
+    <div class="head"><div><p class="eyebrow" data-i18n="box.eyebrow">กล่องของขวัญ</p><h2 data-i18n="box.title">ของฝากจากเชียงใหม่</h2></div><p data-i18n="box.lead">กล่องสำหรับให้คนที่คุณรัก หรือเป็นของฝากกลับบ้าน ใส่รายละเอียดกล่องจริงของร้านได้ที่นี่</p></div>
+    <div class="grid">
+      <article class="box"><p class="eyebrow" data-i18n="box.s">เล็ก</p><h3 data-i18n="box.sT">กล่องชิมลอง</h3><ul><li data-i18n="box.pcs">[จำนวน] ชิ้น</li><li data-i18n="box.flav">[รสที่เลือกได้]</li><li data-i18n="box.price">฿[ราคา]</li></ul><a class="btn" href="#order"><span data-i18n="cta.order">สั่งขนม</span><span class="dot" aria-hidden="true">→</span></a></article>
+      <article class="box feat"><p class="eyebrow" style="color:var(--brick)" data-i18n="box.m">กลาง</p><h3 data-i18n="box.mT">กล่องของฝาก</h3><ul><li data-i18n="box.pcs">[จำนวน] ชิ้น</li><li data-i18n="box.flav">[รสที่เลือกได้]</li><li data-i18n="box.price">฿[ราคา]</li></ul><a class="btn" href="#order"><span data-i18n="cta.order">สั่งขนม</span><span class="dot" aria-hidden="true">→</span></a></article>
+      <article class="box"><p class="eyebrow" data-i18n="box.l">ใหญ่</p><h3 data-i18n="box.lT">กล่องงานเลี้ยง</h3><ul><li data-i18n="box.pcs">[จำนวน] ชิ้น</li><li data-i18n="box.flav">[รสที่เลือกได้]</li><li data-i18n="box.price">฿[ราคา]</li></ul><a class="btn" href="#order"><span data-i18n="cta.order">สั่งขนม</span><span class="dot" aria-hidden="true">→</span></a></article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GALLERY ============ -->
+<section class="sec" id="gallery">
+  <div class="wrap">
+    <div class="head"><div><p class="eyebrow" data-i18n="gal.eyebrow">แกลเลอรี</p><h2 data-i18n="gal.title">ในครัวของเรา</h2></div><p data-i18n="gal.lead">พื้นที่สำหรับรูปจริงจากร้าน: เตาอบ หน้าร้าน และขนมที่เพิ่งอบเสร็จ</p></div>
+    <div class="gallery">
+      <div class="ph tall" data-i18n="gal.p1">[รูปหน้าร้าน]</div><div class="ph wide" data-i18n="gal.p2">[รูปขนมที่เพิ่งออกจากเตา]</div><div class="ph" data-i18n="gal.p3">[รูปคนอบ]</div>
+      <div class="ph" data-i18n="gal.p4">[รูปกล่องของขวัญ]</div><div class="ph wide" data-i18n="gal.p5">[รูปบรรยากาศเชียงใหม่]</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ REVIEWS ============ -->
+<section class="sec reviews" id="reviews" style="padding-top:0">
+  <div class="wrap">
+    <div class="head"><div><p class="eyebrow" data-i18n="rev.eyebrow">รีวิว</p><h2 data-i18n="rev.title">ลูกค้าพูดถึงเรา</h2></div><p data-i18n="rev.lead">ใส่รีวิวจริงจากลูกค้า (พร้อมได้รับอนุญาต) เท่านั้น</p></div>
+    <div class="grid">
+      <figure class="rev"><blockquote class="q" data-i18n="rev.q">“[รีวิวจริงจากลูกค้า]”</blockquote><figcaption class="who" data-i18n="rev.who">[ชื่อลูกค้า] · [ช่องทาง]</figcaption></figure>
+      <figure class="rev"><blockquote class="q" data-i18n="rev.q">“[รีวิวจริงจากลูกค้า]”</blockquote><figcaption class="who" data-i18n="rev.who">[ชื่อลูกค้า] · [ช่องทาง]</figcaption></figure>
+      <figure class="rev"><blockquote class="q" data-i18n="rev.q">“[รีวิวจริงจากลูกค้า]”</blockquote><figcaption class="who" data-i18n="rev.who">[ชื่อลูกค้า] · [ช่องทาง]</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- ============ JOURNEY ============ -->
+<section class="sec journey" id="journey">
+  <div class="wrap">
+    <div class="head"><div><p class="eyebrow" data-i18n="jr.eyebrow">เส้นทางขนมของคุณ</p><h2 data-i18n="jr.title">จากแชท WhatsApp ถึงหน้าบ้านคุณ</h2></div><p data-i18n="jr.lead">ทุกออเดอร์เดินทางแบบนี้ ไม่ต้องเดาว่าขนมอยู่ตรงไหนแล้ว</p></div>
+    <div class="map">
+      <svg id="jmap" viewBox="0 0 1200 380" role="img" aria-label="แผนที่เส้นทางออเดอร์">
+        <defs><filter id="jsh" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="5" stdDeviation="4" flood-color="#3B2416" flood-opacity=".2"/></filter></defs>
+        <rect width="1200" height="380" rx="28" fill="#EAF1DE"/>
+        <path d="M0 150 C 120 70 220 60 330 110 C 420 40 520 30 640 100 C 760 20 900 40 1000 90 C 1080 50 1150 60 1200 90 V0 H0Z" fill="#CFE1BE"/>
+        <path d="M560 96 l40 -58 l40 58z" fill="#A9C793"/><path d="M596 44 l4 -16 l4 16z" fill="#E2A33B"/>
+        <g fill="#9CC07A"><circle cx="150" cy="200" r="16"/><circle cx="480" cy="330" r="18"/><circle cx="760" cy="330" r="14"/><circle cx="1080" cy="320" r="17"/><circle cx="300" cy="320" r="12"/><circle cx="880" cy="190" r="13"/></g>
+        <g fill="#7FA36A"><rect x="148" y="214" width="4" height="12"/><rect x="478" y="346" width="4" height="12"/><rect x="1078" y="335" width="4" height="12"/></g>
+        <path id="road" d="M70 290 C 190 300 190 150 300 140 S 430 280 560 270 S 660 120 780 120 S 900 290 1010 270 S 1120 160 1140 150" fill="none" stroke="#C9B79C" stroke-width="34" stroke-linecap="round"/>
+        <path d="M70 290 C 190 300 190 150 300 140 S 430 280 560 270 S 660 120 780 120 S 900 290 1010 270 S 1120 160 1140 150" fill="none" stroke="#FFF8EC" stroke-width="4" stroke-dasharray="14 14" stroke-linecap="round"/>
+        <g id="pins"></g>
+        <g id="truck" filter="url(#jsh)"><g transform="translate(-34 -22)">
+          <rect x="0" y="6" width="50" height="30" rx="5" fill="#C8352B"/><rect x="2" y="2" width="46" height="8" rx="3" fill="#E04A3E"/>
+          <rect x="6" y="14" width="10" height="9" rx="2" fill="#FFF3E0"/><rect x="20" y="14" width="10" height="9" rx="2" fill="#FFF3E0"/><rect x="34" y="14" width="10" height="9" rx="2" fill="#FFF3E0"/>
+          <path d="M50 14 h10 l8 10 v12 h-18z" fill="#C8352B"/><path d="M53 16 h6 l6 8 h-12z" fill="#BFE3F2"/>
+          <circle cx="14" cy="38" r="7" fill="#3B2416"/><circle cx="56" cy="38" r="7" fill="#3B2416"/><circle cx="14" cy="38" r="3" fill="#C9C9C9"/><circle cx="56" cy="38" r="3" fill="#C9C9C9"/>
+          <rect x="18" y="-6" width="18" height="10" rx="2" fill="#E2A33B"/><rect x="24" y="-8" width="6" height="4" rx="1" fill="#D8435B"/></g></g>
+      </svg>
+    </div>
+    <ol class="jsteps" id="jsteps">
+      <li><span class="jn">1</span><b data-i18n="jr.1">เลือกใส่ตะกร้า</b><span data-i18n="jr.1d">เลือกขนม แบบ และจำนวน</span></li>
+      <li><span class="jn">2</span><b data-i18n="jr.2">ส่งทาง WhatsApp</b><span data-i18n="jr.2d">ข้อความออเดอร์ถูกเขียนให้อัตโนมัติ</span></li>
+      <li><span class="jn">3</span><b data-i18n="jr.3">ร้านยืนยัน</b><span data-i18n="jr.3d">เช็กรายการ ราคา และวันรับกับคุณ</span></li>
+      <li><span class="jn">4</span><b data-i18n="jr.4">ชำระเงิน</b><span data-i18n="jr.4d">[วิธีชำระเงิน เช่น พร้อมเพย์ หรือโอน]</span></li>
+      <li><span class="jn">5</span><b data-i18n="jr.5">อบและแพ็ก</b><span data-i18n="jr.5d">เตรียมขนมของคุณ ใส่กล่องให้สวย</span></li>
+      <li><span class="jn">6</span><b data-i18n="jr.6">รับหรือส่ง</b><span data-i18n="jr.6d">รับที่ร้าน หรือส่งในเชียงใหม่ [พื้นที่และค่าส่ง]</span></li>
+      <li><span class="jn">7</span><b data-i18n="jr.7">อร่อยเลย!</b><span data-i18n="jr.7d">ถ่ายรูปมาอวดเราได้นะ</span></li>
+    </ol>
+  </div>
+</section>
+
+<div class="lanna" aria-hidden="true"></div>
+
+<!-- ============ ORDER ============ -->
+<section class="sec order" id="order">
+  <div class="wrap">
+    <div class="head"><div><p class="eyebrow" data-i18n="ord.eyebrow">วิธีสั่ง</p><h2 data-i18n="ord.title">สั่งง่าย ๆ ใน 3 ขั้น</h2></div></div>
+    <div class="order-grid">
+      <ol class="steps">
+        <li><div><b data-i18n="ord.s1">เลือกขนม</b><span data-i18n="ord.s1d">เลือกจากเมนู แล้วใส่ตะกร้า</span></div></li>
+        <li><div><b data-i18n="ord.s2">ส่งทาง WhatsApp</b><span data-i18n="ord.s2d">ตะกร้าจะเขียนข้อความออเดอร์ให้ แค่กดส่ง</span></div></li>
+        <li><div><b data-i18n="ord.s3">รับขนม</b><span data-i18n="ord.s3d">รับที่ร้าน หรือ [ส่งในเชียงใหม่: ใส่พื้นที่ส่งจริง]</span></div></li>
+      </ol>
+      <div class="contact">
+        <h3 style="font-size:28px" data-i18n="ord.contact">ติดต่อร้าน</h3>
+        <dl>
+          <dt data-i18n="c.addr">ที่อยู่</dt><dd data-i18n="c.addrV">[ที่อยู่ร้าน] เชียงใหม่</dd>
+          <dt data-i18n="c.hours">เวลาเปิด</dt><dd data-i18n="c.hoursV">[วัน และ เวลา]</dd>
+          <dt data-i18n="c.phone">โทร</dt><dd>[เบอร์โทร]</dd>
+          <dt>WhatsApp</dt><dd>[เบอร์ WhatsApp]</dd>
+        </dl>
+        <div class="row">
+          <a class="btn line" href="#menu" data-open-cart><span data-i18n="c.line">ดูตะกร้าและสั่ง</span><span class="dot" aria-hidden="true">→</span></a>
+          <a class="btn ghost" id="mapBtn" href="https://www.google.com/maps/search/?api=1&query=Chiang%20Mai" target="_blank" rel="noopener" data-i18n="c.map">ดูแผนที่</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <div><span class="brand-name" data-i18n="brand">[ชื่อร้าน]</span><p data-i18n="foot.line">เบเกอรี่จากเชียงใหม่ ประเทศไทย</p></div>
+    <p>© <span id="yr"></span> <span data-i18n="brand">[ชื่อร้าน]</span> · <span data-i18n="foot.by">เว็บไซต์โดย TMD Studio</span></p>
+  </div>
+</footer>
+<button class="cart-fab" id="cartFab" type="button" hidden aria-haspopup="dialog" aria-controls="drawer">
+  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 8h14l-1.5 11h-11z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg>
+  <span data-i18n="cart.open">ดูตะกร้า</span><span class="count" id="cartCount">0</span>
+</button>
+<div class="drawer" id="drawer" hidden role="dialog" aria-modal="true" aria-labelledby="cartTitle">
+  <div class="scrim" id="scrim"></div>
+  <div class="panel">
+    <div class="ph-head"><h2 id="cartTitle">ตะกร้า</h2><button class="x" id="cartClose" type="button" aria-label="ปิด">×</button></div>
+    <ul class="lines" id="cartLines"></ul>
+    <div class="cart-foot">
+      <p class="total" id="cartTotal" aria-live="polite"></p>
+      <form id="orderForm" novalidate>
+        <label><span data-l="name">ชื่อผู้สั่ง</span><input name="oname" autocomplete="name" required></label>
+        <label><span data-l="date">วันที่ต้องการรับ</span><input name="odate" type="date" required></label>
+        <fieldset><legend data-l="how">รับขนมแบบไหน</legend>
+          <label class="opt"><input type="radio" name="ohow" value="pickup" checked><span data-l="pickup">รับที่ร้าน</span></label>
+          <label class="opt"><input type="radio" name="ohow" value="delivery"><span data-l="delivery">ส่งในเชียงใหม่</span></label>
+        </fieldset>
+        <label id="addrRow" hidden><span data-l="addr">ที่อยู่จัดส่ง</span><textarea name="oaddr" rows="2" autocomplete="street-address"></textarea></label>
+        <label><span data-l="note">หมายเหตุ</span><textarea name="onote" rows="2"></textarea></label>
+        <p class="err" id="formErr" role="alert"></p>
+        <button class="btn wa" type="submit"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.2 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.1-4.5-3.9-4.7-4.1-.1-.2-1.1-1.5-1.1-2.8s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.4 0 .6l-.3.5-.4.5c-.1.2-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.3 2.4 1.5.3.1.5.1.7-.1l.9-1.1c.2-.3.4-.2.7-.1l2 1c.3.1.5.2.5.4.1.1.1.7-.1 1.4z"/></svg><span data-l="send">ส่งออเดอร์ทาง WhatsApp</span></button>
+        <p class="nonum" id="noNum"></p>
+        <button class="clear" id="clearCart" type="button">ล้างตะกร้า</button>
+      </form>
+    </div>
+  </div>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="products.js"></script>
+<script src="app.js"></script>
+<script src="cart.js"></script>
+<script src="journey.js"></script>
+</body>
+</html>
